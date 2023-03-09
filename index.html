@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy Burger</title>
+    <!-- ////............tailwind cdn link........... -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#FF344F',
+            secondary: '#00D646',
+            mutant: '#FFCA00',
+          }
+        }
+      }
+    }
+  </script>
+
+   <!-- ////............fontawesom cdn link........... -->
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+</head>
+<body>
+
+     <!-- //..........header section........... -->
+     <header class="shadow"> 
+        <div class="max-w-7xl px-5 md:px-10 lg:px-16 mx-auto ">
+           <div class="flex justify-between items-center">
+            <div class="logo">
+                <h2 class="text-xl text-primary font-black"> FOODS</h2>
+             </div>
+             <div class="menu flex">
+                 <button class="p-2 text-white bg-primary border border-primary"><i class="fa-solid fa-house"></i></button>
+                <div class="relative border border-primary p-2">
+                    <button class="text-xl text-primary"><i class="fa-regular fa-heart"></i></button>
+                    <div class="absolute top-2 text-white flex items-center justify-center right-1 w-3 h-3 rounded-full bg-primary text-[10px] font-medium">2</div>
+                </div>
+                <div class="relative border border-primary p-2">
+                    <button class="text-xl text-primary"><i class="fa fa-cart-shopping"></i></button>
+                    <div class="absolute top-2 text-white flex items-center justify-center right-1 w-3 h-3 rounded-full bg-primary text-[10px] font-medium">2</div>
+                </div>
+                <button class="text-xl border border-primary p-2 text-primary"><i class="fa-regular fa-cart-shopping"></i></button>
+                <button class="text-xl border border-primary p-2 text-primary"><i class="fa-solid fa-bars"></i></button>
+             </div>
+           </div>
+        </div>
+
+     </header>
+
+
+     <!-- //..........banner section........... -->
+
+     <main>
+
+        <section>
+            <div class="max-w-xl mx-auto px-5 flex justify-between my-16">
+                <div class="w-14 h-14 bg-secondary opacity-50 rounded-full"></div>
+          
+            <div class="text-center">
+                <h2 class="text-2xl font-bold text-secondary">Are you Hungry?</h2>
+                <h2 class="text-2xl font-black text-primary mb-2 mt-0">Order Food Now</h2>
+                <button class=" px-8 md:px-12 py-2 opacity-80 rounded-xl bg-mutant text-white font-semibold">Get 50% Off</button>
+            </div>
+            <div class="w-10 h-20 bg-mutant opacity-50 rounded-full md:mt-16"></div>
+        </div>
+        </section>
+
+        <!-- //..........burger section........... -->
+        <div class="max-w-7xl px-5 md:px-10 lg:px-16 mx-auto">
+
+            <h2 class="text-2xl font-extrabold text-primary mb-3">Burger...</h2>
+            <div class="flex flex-col md:flex-row justify-center items-center gap-3">
+               
+                <div class="relative">
+                    <img class="z-10 w-[250px] h-[250px]  rounded-xl" src="./img/1.jpeg" src="" alt="">
+                    <div class="absolute bg-white/50 p-3 rounded-xl right-0 left-0 bottom-0 z-20">
+                        <h2 class="text-primary font-black text-sm">Zinger Burgers</h2>
+                        <h2 class="text-primary text-xs pl-[10%] font-black text-sm my-2">20mins</h2>
+                        <div class="flex flex-col md:flex-row gap-2">
+                            <button class="text-xs px-5 py-1 rounded-full bg-mutant font-bold">Add to cart</button>
+                            <button class="text-xs text-primary shadow px-5 py-1 rounded-full bg-white font-bold">$500/-</button>
+                        </div>
+                    </div>
+                    <div class="flex flex-col space-y-4 py-2 absolute bg-white/50 z-20 top-0 right-3">
+                        <button class="text-primary"><i class="fa-regular fa-heart"></i></button>
+                        <h2 class="text-[10px] p-1 mx-1 text-white font-bold rounded-full bg-primary">50%</h2>
+                    </div>
+                    
+                </div>
+                <div class="relative">
+                    <img class="z-10 w-[250px] h-[250px]  rounded-xl" src="./img/2.jpeg" src="" alt="">
+                    <div class="flex flex-col space-y-4 py-2 absolute bg-white/50 z-20 top-0 right-3">
+                        <button class="text-primary"><i class="fa-regular fa-heart"></i></button>
+                        <h2 class="text-[10px] p-1 mx-1 text-white font-bold rounded-full bg-primary">50%</h2>
+                    </div>
+                </div>
+                <div class="relative">
+                    <img class="z-10 w-[250px] h-[250px]  rounded-xl" src="./img/3.jpeg" src="" alt="">
+                    <div class="flex flex-col space-y-4 py-2 absolute bg-white/50 z-20 top-0 right-3">
+                        <button class="text-primary"><i class="fa-regular fa-heart"></i></button>
+                        <h2 class="text-[10px] p-1 mx-1 text-white font-bold rounded-full bg-primary">50%</h2>
+                    </div>
+                </div>
+                <div class="relative">
+                    <img class="z-10 w-[250px] h-[250px]  rounded-xl" src="./img/4.jpeg" src="" alt="">
+                    <div class="flex flex-col space-y-4 py-2 absolute bg-white/50 z-20 top-0 right-3">
+                        <button class="text-primary"><i class="fa-regular fa-heart"></i></button>
+                        <h2 class="text-[10px] p-1 mx-1 text-white font-bold rounded-full bg-primary">50%</h2>
+                    </div>
+                </div>
+                <div class="relative">
+                    <img class="z-10 w-[250px] h-[250px]  rounded-xl" src="./img/5.jpeg" src="" alt="">
+                    <div class="flex flex-col space-y-4 py-2 absolute bg-white/50 z-20 top-0 right-3">
+                        <button class="text-primary"><i class="fa-regular fa-heart"></i></button>
+                        <h2 class="text-[10px] p-1 mx-1 text-white font-bold rounded-full bg-primary">50%</h2>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+
+          <!-- //..........hero section........... -->
+
+          <div class="max-w-7xl px-5 md:px-10 lg:px-16 mx-auto my-20">
+            <div class="bg-primary py-12">
+                <div class="flex flex-col md:flex-row justify-around items-center mx-w-5xl px-5 md:px-10">
+                        <img class="w-1/2" src="./img/undraw_delivery_truck_vt6p-removebg-preview.png" alt="">
+                        <div class="">
+                            <h2 class="text-2xl text-white font-black">1000+ VENCURES</h2>
+                            <h2 class="text-2xl text-white font-black mb-4">SELLING FOODS</h2>
+                                <div class="w-30 h-3 rounded-full bg-secondary"></div>
+                                <div class="w-25 h-3 rounded-full bg-mutant my-1"></div>
+                                <div class="w-20 h-3 rounded-full bg-white"></div>
+                        </div>
+                </div>
+            </div>
+          </div>
+
+           <!-- //..........more section........... -->
+        <div class="max-w-7xl px-5 md:px-10 lg:px-16 mx-auto mb-28">
+
+            <h2 class="text-2xl font-extrabold text-primary mb-3">More...</h2>
+            <div class="flex flex-col md:flex-row justify-center items-center gap-3">
+               
+                <div class="relative">
+                    <img class="z-10 w-[250px] h-[250px]  rounded-xl" src="./img/6.jpeg" src="" alt="">
+                    <div class="absolute bg-white/50 p-3 rounded-xl right-0 left-0 bottom-0 z-20">
+                        <h2 class="text-primary font-black text-sm">Zinger Burgers</h2>
+                        <h2 class="text-primary text-xs pl-[10%] font-black text-sm my-2">20mins</h2>
+                        <div class="flex flex-col md:flex-row gap-2">
+                            <button class="text-xs px-5 py-1 rounded-full bg-mutant font-bold">Add to cart</button>
+                            <button class="text-xs text-primary shadow px-5 py-1 rounded-full bg-white font-bold">$500/-</button>
+                        </div>
+                    </div>
+                    <div class="flex flex-col space-y-4 py-2 absolute bg-white/50 z-20 top-0 right-3">
+                        <button class="text-primary"><i class="fa-regular fa-heart"></i></button>
+                        <h2 class="text-[10px] p-1 mx-1 text-white font-bold rounded-full bg-primary">50%</h2>
+                    </div>
+                    
+                </div>
+                <div class="relative">
+                    <img class="z-10 w-[250px] h-[250px]  rounded-xl" src="./img/7.jpeg" src="" alt="">
+                    <div class="flex flex-col space-y-4 py-2 absolute bg-white/50 z-20 top-0 right-3">
+                        <button class="text-primary"><i class="fa-regular fa-heart"></i></button>
+                        <h2 class="text-[10px] p-1 mx-1 text-white font-bold rounded-full bg-primary">50%</h2>
+                    </div>
+                </div>
+                <div class="relative">
+                    <img class="z-10 w-[250px] h-[250px]  rounded-xl" src="./img/8.jpeg" src="" alt="">
+                    <div class="flex flex-col space-y-4 py-2 absolute bg-white/50 z-20 top-0 right-3">
+                        <button class="text-primary"><i class="fa-regular fa-heart"></i></button>
+                        <h2 class="text-[10px] p-1 mx-1 text-white font-bold rounded-full bg-primary">50%</h2>
+                    </div>
+                </div>
+                <div class="relative">
+                    <img class="z-10 w-[250px] h-[250px]  rounded-xl" src="./img/9.jpeg" src="" alt="">
+                    <div class="flex flex-col space-y-4 py-2 absolute bg-white/50 z-20 top-0 right-3">
+                        <button class="text-primary"><i class="fa-regular fa-heart"></i></button>
+                        <h2 class="text-[10px] p-1 mx-1 text-white font-bold rounded-full bg-primary">50%</h2>
+                    </div>
+                </div>
+                <div class="relative">
+                    <img class="z-10 w-[250px] h-[250px]  rounded-xl" src="./img/10.jpeg" src="" alt="">
+                    <div class="flex flex-col space-y-4 py-2 absolute bg-white/50 z-20 top-0 right-3">
+                        <button class="text-primary"><i class="fa-regular fa-heart"></i></button>
+                        <h2 class="text-[10px] p-1 mx-1 text-white font-bold rounded-full bg-primary">50%</h2>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+
+     </main>
+
+
+</body>
+</html>
